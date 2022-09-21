@@ -1,0 +1,78 @@
+button{
+  color : black;
+  font-weight: 600;
+  float: right;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(210, 72, 18);
+  padding: 15px;
+}
+button:hover{
+ scale:1.03;
+ background-color: forestgreen;
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 70px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.box2{
+  margin-left: 210px;
+}
+
+.avatar{
+  border-radius: 10%;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 8px;
+  padding-top: 0px;
+  color: aliceblue;
+}
+
+
+.profile {
+  border: 2px solid black;
+  box-shadow: 0.5rem 0.5rem 0.5rem grey;
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: pink;
+}
+
+.profile:hover{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email {
+  color: rgb(59, 52, 52);
+  font-size: 15px;
+
+}
+.name{
+  font-size:20px;
+  font-weight: bold;
+}
